@@ -44,7 +44,7 @@
 					plugin.setValue(val + 10);
 				} else {
 					window.clearInterval(timer);
-					lbl = 'Loading complete!';
+					lbl = 'Boom! Loading complete!';
 					$("#btnTest").prop({ "disabled": false }).focus();
 				}
 				
@@ -58,12 +58,12 @@
 			<a href="index.html">&larr; Index</a>
 			<h1>Progress Bar</h1>
 			<p>
-				<div id="pb_lbl">Click on <strong>Run Demo</strong> to simulate download.</div>
+				<div id="pb_lbl">Click on <strong>Blow it up</strong> to initiate the auto-destruct sequence.</div>
 			</p>
 			<p>
 				<div id="pb"></div>
 			</p>
-			<button id="btnTest" onclick="runTest(event);">Run Demo</button>
+			<button id="btnTest" onclick="runTest(event);">Blow It Up</button>
 		</main>
 	</body>
 </html>
